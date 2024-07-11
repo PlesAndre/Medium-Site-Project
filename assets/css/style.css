@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 40px;
+}
+
+button {
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  border-bottom: 1px solid black;
+}
+
+.header-button {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  max-height: 10em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 0 0.5rem;
+}
+
+nav {
+  display: flex;
+  border-bottom: 1px solid black;
+  margin-top: 1.5em;
+}
+
+nav,
+.main-page,
+article,
+.article-description,
+aside,
+.twitter-section,
+.twitter-section button,
+.people-element {
+  display: flex;
+}
+
+aside {
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 70%;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+nav .tabs {
+  font-size: 1.2rem;
+  margin-right: 3rem;
+  padding-bottom: 0.6em;
+}
+
+.article-label {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+article {
+  margin-top: 4rem;
+  height: 100%;
+}
+
+.article-description {
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.article-text {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  margin-right: 1rem;
+}
+
+.article-img {
+  width: 120px;
+  height: 100px;
+  background-color: black;
+  margin: auto;
+}
+
+.article-icon {
+  display: inline-block;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.twitter-section,
+.recommended-section,
+.people-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid black;
+}
+
+.twitter-section > * {
+  margin-top: 25px;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.pill {
+  margin  : 0.3rem;
+  box-shadow: 0.2em 0.2em 0.5em;
+  border: none;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.pill:hover {
+  background-color: rgb(200, 196, 196);
+}
+
+.pill:active {
+  box-shadow: 0.2em 0.2em 0.5em;
+  transform: translateY(4px);
+}
+
+.people-img {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.people-element {
+  margin-top: 30px;
+  align-items: center;
+}
+
+.people-names {
+  padding: 0 50px 0 15px;
+  text-align: left;
+}
+
+.twitter-section button {
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0.2em 0.2em 0.5em black;
+}
+
+.twitter-section button:hover {
+  background-color: rgb(23, 131, 246);
+  color:white
+}
+
+.twitter-section button:active {
+  background-color: rgb(23, 131, 246);
+  box-shadow: 0.2em 0.2em 0.5em black;
+  transform: translateY(4px);
+}
+
+
+.twitter-section img {
+  width: 20px;
+  margin: 0 10px 0 5px;
+}
+
+.recommended {
+  font-weight: bold;
+}
+
+nav div:nth-of-type(2) {
+  border-bottom: 3px solid black;
+}
+
+.people-section button {
+  box-shadow: 0.2em 0.2em 0.5em black;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.people-section button:hover {
+  background-color: rgb(200, 196, 196);
+}
+
+.people-section button:active{
+  background-color: rgb(200, 196, 196);
+  transform: translateY(4px);
+}
