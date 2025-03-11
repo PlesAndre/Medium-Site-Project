@@ -24,7 +24,7 @@ Si tratta di un progetto basilare, pensato per familiarizzare con la creazione d
 
 Clona il repository:
 
-git clone https://github.com/tuo-username/medium-site-project.git
+git clone https://github.com/PlesAndre/Medium-Site-Project.git
 
 Apri il file index.html direttamente nel browser.
 
