@@ -1,6 +1,6 @@
-## Medium Site Project
+# Medium Site Project
 
-# Descrizione
+## Descrizione
 
 Medium Site Project è un semplice clone del sito Medium, sviluppato utilizzando HTML e CSS. Questo progetto è stato realizzato come primo approccio alla programmazione con i linguaggi di markup, con l'obiettivo di comprendere la struttura e il design di una pagina web.
 
@@ -14,13 +14,13 @@ Il sito è suddiviso in tre sezioni principali:
 
 Si tratta di un progetto basilare, pensato per familiarizzare con la creazione di layout e il posizionamento degli elementi tramite CSS.
 
-Tecnologie Utilizzate
+## Tecnologie utilizzate
 
 - HTML5
 
 - CSS3
 
-Installazione e Utilizzo
+## Installazione a utilizzo
 
 Clona il repository:
 
@@ -28,7 +28,7 @@ git clone https://github.com/tuo-username/medium-site-project.git
 
 Apri il file index.html direttamente nel browser.
 
-Struttura del Progetto
+## Struttura del progetto
 
 - /index.html - Pagina principale del sito.
 
@@ -36,7 +36,7 @@ Struttura del Progetto
 
 - /assets/ - Eventuali immagini o risorse multimediali.
 
-Possibili Miglioramenti
+## Possibili miglioramenti
 
 - Aggiunta di interattività con JavaScript.
 
