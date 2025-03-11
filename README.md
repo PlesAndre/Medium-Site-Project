@@ -1,6 +1,6 @@
-Medium Site Project
+## Medium Site Project
 
-Descrizione
+# Descrizione
 
 Medium Site Project è un semplice clone del sito Medium, sviluppato utilizzando HTML e CSS. Questo progetto è stato realizzato come primo approccio alla programmazione con i linguaggi di markup, con l'obiettivo di comprendere la struttura e il design di una pagina web.
 
